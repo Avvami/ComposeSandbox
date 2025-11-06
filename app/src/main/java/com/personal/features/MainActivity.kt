@@ -8,7 +8,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.personal.features.adaptive_navigation.RootNavigationScreen
 import com.personal.features.ui.theme.ComposeFeaturesTheme
 
 class MainActivity : ComponentActivity() {
@@ -17,7 +16,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ComposeFeaturesTheme {
-                RootNavigationScreen()
+                Greeting("Maybo")
             }
         }
     }
